@@ -9,6 +9,8 @@ Not a brewery. Happy to sell the domain and the site — [chad@atlascarolina.com
 - Canonical: [liquidloaf.com](https://liquidloaf.com/) (DNS stays put until someone actually wants it)
 - Preview: [chadakeith.github.io/liquid-loaf](https://chadakeith.github.io/liquid-loaf/)
 
+GitHub Actions cannot create a Pages site with the default token. One-time enable: **Settings → Pages → Source → GitHub Actions**. The deploy workflow then publishes on every push to `main`.
+
 ## Stack
 
 Static HTML, CSS, and a little JS. GitHub Pages from `main`.

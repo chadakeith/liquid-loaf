@@ -323,6 +323,47 @@ h3 {
   color: var(--muted);
 }
 
+.spectrum--gallery {
+  margin: 2.4rem 0 1.15rem;
+}
+
+.keeper-grid {
+  list-style: none;
+  margin: 0 0 0.25rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.35rem;
+}
+
+.loaf--keeper article {
+  border-color: rgba(224, 177, 90, 0.38);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+}
+
+.loaf--keeper figure {
+  aspect-ratio: 16 / 11;
+  position: relative;
+}
+
+.loaf--keeper h3 {
+  font-size: clamp(1.7rem, 3vw, 2.15rem);
+}
+
+.keeper-badge {
+  position: absolute;
+  top: 0.9rem;
+  left: 0.9rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #1c1308;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
 .spectrum i {
   flex: 1;
   height: 3px;
@@ -474,7 +515,8 @@ h3 {
 }
 
 @media (max-width: 960px) {
-  .loaf-grid {
+  .loaf-grid,
+  .keeper-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -507,8 +549,13 @@ h3 {
     display: flex;
   }
 
-  .loaf-grid {
+  .loaf-grid,
+  .keeper-grid {
     grid-template-columns: 1fr;
+  }
+
+  .loaf--keeper figure {
+    aspect-ratio: 4 / 5;
   }
 
   .hero-copy {

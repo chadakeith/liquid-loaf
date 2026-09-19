@@ -28,9 +28,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _site
-          # Keep CNAME in the repo for later DNS, but do not publish it yet.
-          # Publishing CNAME would send github.io visitors to Squarespace.
-          cp -a 404.html index.html robots.txt site.webmanifest sitemap.xml README.md .nojekyll favicon.svg _site/
+          cp -a 404.html index.html robots.txt site.webmanifest sitemap.xml README.md .nojekyll favicon.svg CNAME _site/
           cp -a assets css js _site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

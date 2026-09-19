@@ -1,8 +1,8 @@
 # Liquid Loaf
 
-Joke personal site. Beer is bread that learned to pour.
+Beer is bread that learned to pour.
 
-Not a brewery. Happy to sell the domain and the site — [chad@atlascarolina.com](mailto:chad@atlascarolina.com).
+Happy to sell the domain and the site — [chad@atlascarolina.com](mailto:chad@atlascarolina.com).
 
 ## Live
 

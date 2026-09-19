@@ -501,6 +501,11 @@ h3 {
   margin: 0 0 0.4rem;
 }
 
+.footer-theory {
+  max-width: 34rem;
+  color: var(--muted);
+}
+
 .site-footer a {
   color: var(--gold);
   text-decoration: none;

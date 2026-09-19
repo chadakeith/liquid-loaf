@@ -1,7 +1,7 @@
 {
   "name": "Liquid Loaf",
   "short_name": "Liquid Loaf",
-  "description": "Beer is bread that learned to pour. A joke loaf-to-glass gallery.",
+  "description": "Beer is bread that learned to pour. A loaf-to-glass gallery from pilsner to stout.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0b0907",

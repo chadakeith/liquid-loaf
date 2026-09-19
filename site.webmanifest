@@ -1,0 +1,21 @@
+{
+  "name": "Liquid Loaf",
+  "short_name": "Liquid Loaf",
+  "description": "Beer is bread that learned to pour. A joke loaf-to-glass gallery.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0907",
+  "theme_color": "#0b0907",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "assets/brand/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ]
+}

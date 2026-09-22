@@ -506,6 +506,12 @@ h3 {
   color: var(--muted);
 }
 
+.footer-doughnation {
+  margin: 0.85rem 0 0.55rem;
+  max-width: 34rem;
+  color: var(--ink);
+}
+
 .site-footer a {
   color: var(--gold);
   text-decoration: none;
